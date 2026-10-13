@@ -10,5 +10,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Vérifier que le README existe
-        run: test -f README.md
+
+      - name: Vérifier que index.html existe
+        run: test -f index.html
+
+      - name: Installer Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Valider le HTML
+        run: npx --yes htmlhint index.html
