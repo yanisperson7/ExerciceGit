@@ -2,7 +2,7 @@
 
 -- Exercice Git -> 13 octobre 2026 --
 
--- Ex 1
+-- 1 --
 
 - Installer git
 - créer repo git distant et le cloner
@@ -13,3 +13,13 @@
 - commande git pour créer un commit
 - commande git pour envoyer le commit sur le repo distant
 - observer les modifications sur le repo distant
+
+-- 2 --
+
+- Créer un conflit
+- Résoudre ce conflit en local
+- Envoyer les modifications
+
+-- 3 --
+
+Mettre en place une ci sur mon site
