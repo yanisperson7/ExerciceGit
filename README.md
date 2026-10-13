@@ -2,6 +2,8 @@
 
 -- Exercice Git -> 13 octobre 2026 --
 
+-- Ex 1
+
 - Installer git
 - créer repo git distant et le cloner
 - créer une branche dev et s'y placer
